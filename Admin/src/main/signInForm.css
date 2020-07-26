@@ -1,0 +1,120 @@
+#parentDiv {
+    align-items: center;
+}
+
+
+#loginform {
+    background-color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 20px;
+    height: 490px;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 1.5%;
+    box-shadow: 5px 5px 12px grey;
+
+}
+
+
+  #submitButton{
+      position:relative;
+      top:200px;
+      width:250px;     
+      height:30px; 
+      border-radius: 5%;
+      background-color:blue;
+      color:white;
+       /*box-shadow : 7px 7px 5px white; */
+  }
+
+  #submitButton:hover {
+      background-color: #006994;
+      color:white
+  }
+
+
+  #emailText{
+    position:relative;
+    top: 70px;
+    background-color: transparent;
+
+  }
+
+  #passwordText {
+    position:relative;
+    top: 100px;
+    background-color: transparent;
+  }
+
+
+  #skynet{
+      text-shadow: 2px 2px 8px;
+  }
+
+
+  #user {
+      border:0;
+      outline: 0;
+      border-bottom: 1.4px solid #006994;
+      font-size: 0.8rem;
+      position:relative;
+      left:30px;
+  }
+
+  label{
+      color:black;
+      position:relative;
+      right: 37px;
+      
+  }
+
+ 
+  #forgotpass {
+      position: relative;
+      top: 200px;
+      right: 90px;
+      color: blue;
+      cursor: pointer;
+  }
+
+  #gotoSignUp{
+    position: relative;
+    top: 190px;
+    left: 1px;
+    border: none;
+    width:250px;
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 4px;
+    background-color: #006994;
+    color: #fefefe;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  #gotoSignUp:hover {
+    background-color: #22223B;
+    color:white
+}
+
+
+  #signup {
+    position: relative;
+    top: 155px;
+    left: 120px;
+    color: blue;
+  }
+
+
+  #logo {
+      position: relative;
+      top: 20px;
+  }
+
+
+#backToLogin {
+  color: blue;
+  cursor: pointer;
+}

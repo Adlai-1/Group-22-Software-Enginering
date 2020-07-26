@@ -1,0 +1,134 @@
+#parentDiv {
+    align-items: center;
+}
+
+
+#loginform {
+    background-color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 20px;
+    height: 490px;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 1.5%;
+    box-shadow: 5px 5px 12px grey;
+    
+
+}
+
+
+  #submitButton{
+      position:relative;
+      top:150px;
+      cursor: pointer;
+      margin-right: 0.25em;
+      margin-top: 0.5em;
+      padding-bottom: 0.5em;
+      padding-top: 0.5em;
+      border: none;
+      border-radius: 4px;
+      background-color: #006994;
+      color: #fefefe;
+      text-align: center;
+  }
+
+  #submitButton:hover {
+      background-color: #22223B;
+      color:white
+  }
+
+  
+  #usernameText{
+    position:relative;
+    top: 40px;
+    background-color: transparent;
+
+  }
+
+  #emailText{
+    position:relative;
+    top: 70px;
+    background-color: transparent;
+
+  }
+
+  #passwordText {
+    position:relative;
+    top: 100px;
+    background-color: transparent;
+  }
+
+  #telephoneText {
+    position:relative;
+    top: 130px;
+    background-color: transparent;
+  }
+
+
+  #skynet{
+      text-shadow: 2px 2px 8px;
+  }
+
+
+  #user {
+      position:relative;
+      left:-5px;
+      padding: 8px 8px;
+      border-radius: 5px;
+      outline: none;
+      border: 1px solid #d6d1d5;
+      width:210px;
+      
+     
+  }
+
+  label{
+      color:black;
+      position:relative;
+      right: 37px;
+      
+  }
+
+
+#usernameWarning{
+  position: absolute;
+  top: 70
+
+}
+
+  #goToSignIn {
+    position: relative;
+    top: 165px;
+    left: 53px;
+    border: none;
+    width:140px;
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 4px;
+    background-color: #006994;
+    color: #fefefe;
+    text-align: center;
+    cursor: pointer;
+
+  }
+
+  #goToSignIn:hover {
+    background-color: #22223B;
+    color:white
+}
+
+
+
+  #signup {
+    position: relative;
+    top: 155px;
+    left: 120px;
+    color: blue;
+  }
+
+  #logo {
+      position: relative;
+      top: 20px;
+  }
